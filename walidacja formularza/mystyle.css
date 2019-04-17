@@ -1,0 +1,122 @@
+html {
+  background-color: #ccccff;
+  height:100%;
+  width: 1170px;
+  margin-left: calc((100% - 1170px)/2);
+}
+
+body {
+  background: #ccccff;
+  color: black;
+  margin: 0px;
+  padding: 10px;
+  height:100%;
+}
+
+.container {
+	height: 100%;	
+	margin: 10px; 
+	margin-left: -10px;
+}
+
+div {
+  display: block; 
+}
+
+header, footer, article, section {
+  background: #cc99cc;
+  border-radius: 10px;
+}
+
+.main {
+  display: table;
+  text-align: center;
+  width: 100%;
+  height: auto;
+  margin: 10px;
+  padding: 0px;
+}
+
+#lampka1, #lampka2, #lampka3, #lampka4, #lampka5, #lampka6, #lampka7, #lampka8, #lampka9, #lampka10, #lampka11, #lampka12, #lampka13, #lampka14 {
+	display: table-cell;
+	background: #fff;
+	border-radius: 10px; 
+	width: 15px;
+	height: 15px;
+}
+
+#index1{
+	display: block;
+}
+
+#index2{
+	display: none;
+}
+
+#index3{	
+	display: none;
+}
+
+header {
+  height: auto;
+  text-align: center;
+  margin-bottom: 10px;
+  margin: 10px;
+  margin-right: -10px;
+  margin-top: -10px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+
+section {
+  display: table;
+  text-align: center;
+  width: 100%;
+  height: auto;
+}
+
+section > header {  
+  height: auto;
+  background: #ccccff;
+  margin: 10px;
+  margin-top: -10px;
+  padding-bottom: 0px;
+  padding-top: 0px;
+}
+
+div.form-check {
+	margin-left: auto;
+    margin-right: auto;
+    width: 10em;
+}
+
+article {
+	background: #cc99cc;
+	margin: 10px;
+	height: auto;
+	width: auto;
+
+}
+
+footer {
+  height: 30px;
+  text-align: center;
+  margin-top: 10px;
+  margin: 10px;
+  margin-right: -10px;
+  padding-top: 10px;
+}
+
+::-moz-progress-bar {
+  background-color: #90EE90;
+}
+
+@media only screen and (max-width: 1170px) 
+{
+  html {
+  height:100%;
+  width: 100%;
+  margin-left: 0px;  
+  }
+
+}
